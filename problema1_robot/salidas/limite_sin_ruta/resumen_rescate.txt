@@ -1,0 +1,2 @@
+Total de recorridos: 0
+No existe recorrido válido con B = 4

@@ -1,0 +1,4 @@
+>corta
+A
+>larga
+ACGT

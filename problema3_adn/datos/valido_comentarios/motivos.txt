@@ -1,0 +1,7 @@
+# motivos
+ACG
+
+TAC
+  # otro comentario
+GGA
+acg

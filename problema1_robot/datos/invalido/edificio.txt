@@ -1,0 +1,6 @@
+X X X X X X
+X S . L M X
+# la siguiente fila es mas corta
+X . X .
+X S Z . . .
+X X . X X X

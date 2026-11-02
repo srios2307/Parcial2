@@ -1,0 +1,10 @@
+GATTACA
+>muestra_a
+ACGT
+>
+ACGT
+>muestra_a
+ACNT
+>muestra_vacia
+>muestra_c
+TTTT

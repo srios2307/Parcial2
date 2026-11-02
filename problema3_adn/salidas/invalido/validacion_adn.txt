@@ -1,0 +1,7 @@
+Errores de validación encontrados: 6
+muestras.txt, línea 1: hay datos de secuencia antes del primer encabezado
+muestras.txt, línea 4: el encabezado no tiene identificador
+muestras.txt, línea 6: el id muestra_a ya se usó en la línea 2
+muestras.txt, línea 7, muestra muestra_a, posición 2: carácter inválido N
+muestras.txt, línea 8: la muestra muestra_vacia no tiene ninguna base
+motivos.txt, línea 2, motivo AXG, posición 1: carácter inválido X

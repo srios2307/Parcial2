@@ -1,0 +1,10 @@
+# Edificio del enunciado con comentarios
+
+X X X X X X
+X S . L M X
+   # comentario con espacios antes
+X . X . . X
+
+X . . . . X
+X X X X X X
+

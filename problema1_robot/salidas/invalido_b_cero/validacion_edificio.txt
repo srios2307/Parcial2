@@ -1,0 +1,3 @@
+Errores de validación encontrados: 2
+terrenos.csv, línea 5: el terreno M debe ser transitable
+bateria.txt, línea 1: B debe ser positivo y es 0

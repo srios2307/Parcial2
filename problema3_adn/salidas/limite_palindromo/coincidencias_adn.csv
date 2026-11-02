@@ -1,0 +1,3 @@
+muestra;motivo;orientacion;inicio;fin;diferencias
+palindromo;ACGT;+;0;3;0
+palindromo;ACGT;-;0;3;0

@@ -1,0 +1,13 @@
+Total de recorridos: 4
+Menor número de movimientos: 2
+  Recorrido 1
+    Coordenadas: (1,1)->(1,2)->(1,3)
+    Movimientos: 2
+    Direcciones: derecha, derecha
+    Energía: 6
+Menor energía: 4
+  Recorrido 4
+    Coordenadas: (1,1)->(2,1)->(2,2)->(2,3)->(1,3)
+    Movimientos: 4
+    Direcciones: abajo, derecha, derecha, arriba
+    Energía: 4

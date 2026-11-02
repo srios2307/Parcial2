@@ -1,0 +1,10 @@
+X,pared,no,0
+.,pasillo,si,1
+L,lodo,si,3
+L,lodo_otra_vez,si,2
+S,inicio,si,0
+M,meta,si,1
+R,rampa,si,0
+Q,raro,quizas,1
+W,agua,si,-2
+faltan,campos

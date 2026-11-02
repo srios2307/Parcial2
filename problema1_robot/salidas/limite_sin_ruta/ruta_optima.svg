@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="368" viewBox="0 0 320 368">
+<rect x="0" y="0" width="320" height="368" fill="white"/>
+<rect x="0" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="60" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="80" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="100" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="120" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="140" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="160" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="180" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="200" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="220" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="0" y="40" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="40" width="40" height="40" fill="#80ed99" stroke="#adb5bd"/>
+<text x="60" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">S</text>
+<rect x="80" y="40" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="100" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="120" y="40" width="40" height="40" fill="#b08968" stroke="#adb5bd"/>
+<text x="140" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">L</text>
+<rect x="160" y="40" width="40" height="40" fill="#ffd166" stroke="#adb5bd"/>
+<text x="180" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">M</text>
+<rect x="200" y="40" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="220" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="0" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="80" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="60" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="80" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="120" y="80" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="140" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="160" y="80" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="180" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="200" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="220" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="0" y="120" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="140" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="120" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="60" y="140" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="80" y="120" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="100" y="140" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="120" y="120" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="140" y="140" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="160" y="120" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="180" y="140" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">.</text>
+<rect x="200" y="120" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="220" y="140" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="0" y="160" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="180" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="160" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="60" y="180" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="80" y="160" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="100" y="180" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="120" y="160" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="140" y="180" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="160" y="160" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="180" y="180" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="200" y="160" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="220" y="180" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="10" y="220" width="16" height="16" fill="#495057" stroke="#adb5bd"/>
+<text x="34" y="233" font-family="sans-serif" font-size="14" fill="black">pared (X): costo 0</text>
+<rect x="10" y="244" width="16" height="16" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="34" y="257" font-family="sans-serif" font-size="14" fill="black">pasillo (.): costo 1</text>
+<rect x="10" y="268" width="16" height="16" fill="#b08968" stroke="#adb5bd"/>
+<text x="34" y="281" font-family="sans-serif" font-size="14" fill="black">lodo (L): costo 3</text>
+<rect x="10" y="292" width="16" height="16" fill="#80ed99" stroke="#adb5bd"/>
+<text x="34" y="305" font-family="sans-serif" font-size="14" fill="black">inicio (S): costo 0</text>
+<rect x="10" y="316" width="16" height="16" fill="#ffd166" stroke="#adb5bd"/>
+<text x="34" y="329" font-family="sans-serif" font-size="14" fill="black">meta (M): costo 1</text>
+<text x="10" y="352" font-family="sans-serif" font-size="14" fill="black">«sin recorrido»</text>
+</svg>

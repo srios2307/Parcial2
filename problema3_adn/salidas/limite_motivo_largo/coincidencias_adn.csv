@@ -1,0 +1,13 @@
+muestra;motivo;orientacion;inicio;fin;diferencias
+corta;A;+;0;0;0
+corta;A;-;0;0;1
+larga;A;+;0;0;0
+larga;A;-;0;0;1
+larga;A;+;1;1;1
+larga;A;-;1;1;1
+larga;A;+;2;2;1
+larga;A;-;2;2;1
+larga;A;+;3;3;1
+larga;A;-;3;3;0
+larga;GT;-;0;1;0
+larga;GT;+;2;3;0

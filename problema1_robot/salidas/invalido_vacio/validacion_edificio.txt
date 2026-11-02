@@ -1,0 +1,4 @@
+Errores de validación encontrados: 3
+edificio.txt: el edificio está vacío
+edificio.txt: debe existir exactamente un S y hay 0
+edificio.txt: debe existir exactamente un M y hay 0

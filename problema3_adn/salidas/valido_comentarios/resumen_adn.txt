@@ -1,0 +1,14 @@
+Coincidencias por motivo y muestra:
+  muestra_1 | ACG: 3
+  muestra_1 | GGA: 2
+  muestra_1 | TAC: 2
+  muestra_2 | ACG: 2
+  muestra_2 | GGA: 3
+  muestra_2 | TAC: 2
+Total de coincidencias: 14
+Motivos que no aparecieron:
+  ninguno
+Motivos duplicados descartados:
+  ACG (línea 7)
+Motivos más largos que alguna muestra:
+  ninguno

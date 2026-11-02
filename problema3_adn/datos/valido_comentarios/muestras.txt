@@ -1,0 +1,10 @@
+# muestras del enunciado
+
+> muestra_1 
+acgt
+   # comentario en medio de la secuencia
+
+AcG
+>muestra_2
+ggtaca
+

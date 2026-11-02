@@ -1,0 +1,23 @@
+Total de recorridos: 2
+Menor número de movimientos: 2
+  Recorrido 1
+    Coordenadas: (1,1)->(1,2)->(2,2)
+    Movimientos: 2
+    Direcciones: derecha, abajo
+    Energía: 2
+  Recorrido 2
+    Coordenadas: (1,1)->(2,1)->(2,2)
+    Movimientos: 2
+    Direcciones: abajo, derecha
+    Energía: 2
+Menor energía: 2
+  Recorrido 1
+    Coordenadas: (1,1)->(1,2)->(2,2)
+    Movimientos: 2
+    Direcciones: derecha, abajo
+    Energía: 2
+  Recorrido 2
+    Coordenadas: (1,1)->(2,1)->(2,2)
+    Movimientos: 2
+    Direcciones: abajo, derecha
+    Energía: 2

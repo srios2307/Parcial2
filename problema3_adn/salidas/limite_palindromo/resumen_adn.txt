@@ -1,0 +1,9 @@
+Coincidencias por motivo y muestra:
+  palindromo | ACGT: 2
+Total de coincidencias: 2
+Motivos que no aparecieron:
+  ninguno
+Motivos duplicados descartados:
+  ninguno
+Motivos más largos que alguna muestra:
+  ninguno

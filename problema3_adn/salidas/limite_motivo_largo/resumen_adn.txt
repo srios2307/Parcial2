@@ -1,0 +1,16 @@
+Coincidencias por motivo y muestra:
+  corta | A: 2
+  corta | ACGTACGTAC: 0
+  corta | GT: 0
+  larga | A: 8
+  larga | ACGTACGTAC: 0
+  larga | GT: 2
+Total de coincidencias: 12
+Motivos que no aparecieron:
+  ACGTACGTAC
+Motivos duplicados descartados:
+  ninguno
+Motivos más largos que alguna muestra:
+  ACGTACGTAC (longitud 10) en corta (longitud 1)
+  ACGTACGTAC (longitud 10) en larga (longitud 4)
+  GT (longitud 2) en corta (longitud 1)

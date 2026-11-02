@@ -1,0 +1,11 @@
+Paso 0:
+(1,1) = 0
+Paso 1:
+(1,1) = 0
+(1,2) = 1
+Paso 2:
+(1,1) = 0
+(1,2) = 1
+(1,3) = 2
+Índice de estabilización: 2
+Costo mínimo hasta la meta: 2

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="418" height="264" viewBox="0 0 418 264">
+<rect x="0" y="0" width="418" height="264" fill="white"/>
+<rect x="0" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="60" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="80" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="100" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="120" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="140" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="160" y="0" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="180" y="20" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="0" y="40" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="40" width="40" height="40" fill="#b08968" stroke="#adb5bd"/>
+<text x="60" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">S</text>
+<rect x="80" y="40" width="40" height="40" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="100" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">&amp;</text>
+<rect x="120" y="40" width="40" height="40" fill="#80ed99" stroke="#adb5bd"/>
+<text x="140" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="black">M</text>
+<rect x="160" y="40" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="180" y="60" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="0" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="20" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="40" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="60" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="80" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="120" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="140" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<rect x="160" y="80" width="40" height="40" fill="#495057" stroke="#adb5bd"/>
+<text x="180" y="100" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="16" fill="white">X</text>
+<line x1="60" y1="60" x2="100" y2="60" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+<line x1="100" y1="60" x2="140" y2="60" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+<circle cx="60" cy="60" r="9" fill="#2a9d8f" fill-opacity="0.8" stroke="black"/>
+<circle cx="140" cy="60" r="9" fill="#d62828" fill-opacity="0.8" stroke="black"/>
+<rect x="10" y="140" width="16" height="16" fill="#495057" stroke="#adb5bd"/>
+<text x="34" y="153" font-family="sans-serif" font-size="14" fill="black">pared (X): costo 0</text>
+<rect x="10" y="164" width="16" height="16" fill="#f8f9fa" stroke="#adb5bd"/>
+<text x="34" y="177" font-family="sans-serif" font-size="14" fill="black">pasillo &lt;seguro&gt; &amp; &quot;limpio&quot; &apos;nuevo&apos; (&amp;): costo 1</text>
+<rect x="10" y="188" width="16" height="16" fill="#b08968" stroke="#adb5bd"/>
+<text x="34" y="201" font-family="sans-serif" font-size="14" fill="black">inicio (S): costo 0</text>
+<rect x="10" y="212" width="16" height="16" fill="#80ed99" stroke="#adb5bd"/>
+<text x="34" y="225" font-family="sans-serif" font-size="14" fill="black">meta (M): costo 1</text>
+<text x="10" y="248" font-family="sans-serif" font-size="14" fill="black">Energía de la ruta dibujada: 2</text>
+</svg>
