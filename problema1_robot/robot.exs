@@ -54,10 +54,6 @@ defmodule RobotRescate do
     |> mostrar_resultado()
   end
 
-  # ======================================================================
-  # RUTAS Y VERIFICACIÓN DE ARCHIVOS
-  # ======================================================================
-
   # Recibe el nombre del caso y retorna un mapa con todas las rutas de entrada y salida.
   defp preparar_rutas(caso) do
     datos = __DIR__ |> Path.join("datos") |> Path.join(caso)
@@ -94,10 +90,6 @@ defmodule RobotRescate do
 
     {:error, aviso}
   end
-
-  # ======================================================================
-  # LECTURA PEREZOSA
-  # ======================================================================
 
   # Si un paso anterior falló, el error pasa de largo. Todos los pasos del
   # pipeline tienen esta primera cláusula, una cláusula por forma de resultado.
@@ -192,11 +184,6 @@ defmodule RobotRescate do
       ArgumentError -> :error
     end
   end
-
-  # ======================================================================
-  # VALIDACIÓN RECURSIVA (regla 7: aquí no se llama ninguna función de los
-  # módulos de colecciones ni de flujos; todo es recursión propia)
-  # ======================================================================
 
   defp validar_entradas({:error, motivo}), do: {:error, motivo}
 
@@ -472,10 +459,6 @@ defmodule RobotRescate do
     errores ++ ["bateria.txt, línea #{linea}: B debe ser un entero y es #{texto}"]
   end
 
-  # ======================================================================
-  # FIN DE LA VALIDACIÓN RECURSIVA
-  # ======================================================================
-
   # Escribe el archivo de validación línea por línea y retorna los errores.
   defp escribir_validacion([], ruta) do
     Archivo.crear(ruta, "Sin errores de validación\n")
@@ -535,10 +518,6 @@ defmodule RobotRescate do
     |> Enum.with_index()
     |> Enum.map(fn {simbolo, columna} -> {{fila, columna}, simbolo} end)
   end
-
-  # ======================================================================
-  # STREAM INFINITO: RELAJACIÓN DE ENERGÍA MÍNIMA
-  # ======================================================================
 
   defp generar_relajacion({:error, motivo}), do: {:error, motivo}
 
@@ -630,10 +609,6 @@ defmodule RobotRescate do
   defp linea_costo_meta(nil, presupuesto), do: "La meta no es alcanzable con B = #{presupuesto}\n"
   defp linea_costo_meta(costo, _presupuesto), do: "Costo mínimo hasta la meta: #{costo}\n"
 
-  # ======================================================================
-  # BÚSQUEDA RECURSIVA DE TODOS LOS RECORRIDOS SIMPLES
-  # ======================================================================
-
   defp enumerar_recorridos({:error, motivo}), do: {:error, motivo}
 
   defp enumerar_recorridos({:ok, rutas, datos, estado_final}) do
@@ -713,10 +688,6 @@ defmodule RobotRescate do
   defp visitada?(_posicion, []), do: false
   defp visitada?(posicion, [posicion | _cola]), do: true
   defp visitada?(posicion, [_cabeza | cola]), do: visitada?(posicion, cola)
-
-  # ======================================================================
-  # SALIDAS: CSV Y RESUMEN
-  # ======================================================================
 
   defp escribir_recorridos({:error, motivo}), do: {:error, motivo}
 
@@ -809,10 +780,6 @@ defmodule RobotRescate do
   defp generar_mensaje(lineas, carpeta_salida) do
     Enum.join(lineas, "\n") <> "\nArchivos generados en #{carpeta_salida}\n"
   end
-
-  # ======================================================================
-  # SALIDA: DIBUJO SVG (ESCRITURA PROGRESIVA)
-  # ======================================================================
 
   defp dibujar_svg({:error, motivo}), do: {:error, motivo}
 
@@ -970,10 +937,6 @@ defmodule RobotRescate do
     |> String.replace("\"", "&quot;")
     |> String.replace("'", "&apos;")
   end
-
-  # ======================================================================
-  # RESULTADO EN PANTALLA
-  # ======================================================================
 
   defp mostrar_resultado({:ok, mensaje}), do: Util2.mostrar(mensaje, :mensaje)
   defp mostrar_resultado({:error, motivo}), do: Util2.mostrar(motivo, :error)
