@@ -34,9 +34,9 @@ defmodule BusquedaAdn do
     |> mostrar_resultado()
   end
 
-  # ======================================================================
+  
   # RUTAS Y VERIFICACIÓN DE ARCHIVOS
-  # ======================================================================
+  
 
   # Recibe el nombre del caso y retorna un mapa con todas las rutas de entrada y salida.
   defp preparar_rutas(caso) do
@@ -72,9 +72,8 @@ defmodule BusquedaAdn do
     {:error, aviso}
   end
 
-  # ======================================================================
+ 
   # LECTURA PEREZOSA
-  # ======================================================================
 
   # Si un paso anterior falló, el error pasa de largo. Todos los pasos del
   # pipeline tienen esta primera cláusula, una cláusula por forma de resultado.
@@ -122,10 +121,10 @@ defmodule BusquedaAdn do
 
   defp clasificar_por_inicio(false, texto, linea), do: {:secuencia, String.upcase(texto), linea}
 
-  # ======================================================================
+  
   # VALIDACIÓN RECURSIVA (regla 7: aquí no se llama ninguna función de los
   # módulos de colecciones ni de flujos; todo es recursión propia)
-  # ======================================================================
+
 
   defp validar_entradas({:error, motivo}), do: {:error, motivo}
 
@@ -248,9 +247,9 @@ defmodule BusquedaAdn do
   defp base_valida?("T"), do: true
   defp base_valida?(_), do: false
 
-  # ======================================================================
+
   # FIN DE LA VALIDACIÓN RECURSIVA
-  # ======================================================================
+  
 
   # Escribe el archivo de validación línea por línea y retorna los errores.
   defp escribir_validacion([], ruta) do
@@ -273,9 +272,8 @@ defmodule BusquedaAdn do
     {:error, "Se encontraron #{length(errores)} errores de validación. Detalles en #{rutas.validacion}"}
   end
 
-  # ======================================================================
+ 
   # PREPARACIÓN DE LOS DATOS
-  # ======================================================================
 
   defp preparar_datos({:error, motivo}), do: {:error, motivo}
 
@@ -325,9 +323,9 @@ defmodule BusquedaAdn do
   defp motivo_visto?(motivo, [motivo | _cola]), do: true
   defp motivo_visto?(motivo, [_cabeza | cola]), do: motivo_visto?(motivo, cola)
 
-  # ======================================================================
+ 
   # BÚSQUEDA DE COINCIDENCIAS
-  # ======================================================================
+  
 
   defp buscar_coincidencias({:error, motivo}), do: {:error, motivo}
 
@@ -431,9 +429,9 @@ defmodule BusquedaAdn do
 
   defp registrar(_diferencias, _busqueda, _longitud, _posicion, encontradas), do: encontradas
 
-  # ======================================================================
+  
   # SALIDAS: CSV Y RESUMEN
-  # ======================================================================
+  
 
   defp escribir_coincidencias({:error, motivo}), do: {:error, motivo}
 
@@ -521,9 +519,9 @@ defmodule BusquedaAdn do
     Enum.join(lineas, "\n") <> "\nArchivos generados en #{carpeta_salida}\n"
   end
 
-  # ======================================================================
+  
   # RESULTADO EN PANTALLA
-  # ======================================================================
+ 
 
   defp mostrar_resultado({:ok, mensaje}), do: Util2.mostrar(mensaje, :mensaje)
   defp mostrar_resultado({:error, motivo}), do: Util2.mostrar(motivo, :error)
