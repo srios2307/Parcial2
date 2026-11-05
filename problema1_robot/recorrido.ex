@@ -2,7 +2,7 @@ defmodule Recorrido do
   @moduledoc """
   Estructura con un recorrido simple que llega desde S hasta M.
   El número de movimientos no se guarda: se calcula como `length(posiciones) - 1`.
-  - autor: Grupo Parcial 2, Programación III G2D
+  - autor: Santiago Rios, Yulian Diaz, Santiago Godoy
   - fecha: 2026-11-02
   - licencia: GNU GPL v3
   """
