@@ -1,7 +1,7 @@
 defmodule Terreno do
   @moduledoc """
   Estructura con un tipo de terreno leído de terrenos.csv.
-  - autor: Grupo Parcial 2, Programación III G2D
+  - autor: Santiago Rios, Yulian Diaz, Santiago Godoy
   - fecha: 2026-11-02
   - licencia: GNU GPL v3
   """
